@@ -1,0 +1,57 @@
+body {
+  background-color: #060606;
+  color: white;
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url('focus.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+h1 {
+  color: #FF6B00;
+  font-size: 48px;
+}
+
+h2 {
+  color: #FFB800;
+  margin-top: 40px;
+}
+
+p {
+  color: #aaaaaa;
+  line-height: 1.6;
+}
+
+a {
+  color: #FF6B00;
+  margin-top: 20px;
+  display: block;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 0; 
+    margin-bottom: 60px;
+    border-bottom: 1px solid #333333;
+} 
+
+nav span {
+  color: white;
+  font-weight: bold;
+}
+
+nav a {
+  color: #FF6B00;
+  display: inline;
+  margin: 0;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  padding: 40px;
+}
