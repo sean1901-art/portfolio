@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>Ma première page</title>
+    <title>Sean Affani</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <body>
-      <nav> 
-        <span>Sean Affani </span>
-        <a href="#">Repmax</a>
-      </nav>
-  <h1>Sean Affani</h1>
-  <p>Développeur en formation · Créateur de Repmax</p>
+    <nav>
+      <span>Sean Affani</span>
+      <a href="#projets">Mes projets</a>
+    </nav>
 
-  <h2>Mon projet</h2>
-  <p>Repmax est une app iOS de musculation que je développe en React Native.</p>
+    <section class="hero">
+      <h1>Je construis des apps<br>qui <span class="accent">changent</span> les habitudes.</h1>
+      <p>Développeur en formation · Créateur de Repmax</p>
+      <a href="#projets" class="btn">Voir mes projets</a>
+    </section>
 
-  <a href="https://github.com">Voir mon GitHub</a>
-</body>
-      </body>
-</html>
+    <section class="projets" id="projets">
+      <h2>Mes projets</h2>
+      <div class="carte">
+        <div class ="carte-image">
+          <img src="focus.jpeg" alt="Repmax app">
+        </div>
+        <div class="carte-tags">
+          <span class="carte-tag">iOS </span>
+          <span class="carte-tag">React Native</span>
+          <span class="carte-tag">Typescript</span>
+        </div>
+        <h3>Repmax</h3>
+        <p>App de musculation avec suivi des séances, progression et timer de repos.</p>
+        <a href="#">Voir le projet →</a>
+      </div>
+    </section>
+  </body>
+</html> 
