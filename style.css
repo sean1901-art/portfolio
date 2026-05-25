@@ -165,4 +165,22 @@ nav a:hover {
   .carte {
     max-width: 100%;
   }
+}.apropos {
+  padding: 80px 60px;
+  max-width: 700px;
+}
+
+.apropos h2 {
+  color: #FFB800;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.apropos p {
+  color: #aaaaaa;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
