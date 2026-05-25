@@ -145,3 +145,24 @@ nav a:hover {
   object-fit: contain;
   background-color: #060606;
 }
+@media (max-width: 768px) {
+  nav {
+    padding: 16px 24px;
+  }
+
+  .hero {
+    padding: 60px 24px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .projets {
+    padding: 60px 24px;
+  }
+
+  .carte {
+    max-width: 100%;
+  }
+}
