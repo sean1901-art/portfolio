@@ -168,7 +168,18 @@ nav a:hover {
 }.apropos {
   padding: 80px 60px;
   max-width: 700px;
-}
+}.apropos {
+    padding: 60px 24px;
+  }
+
+  .contact {
+    padding: 60px 24px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
 
 .apropos h2 {
   color: #FFB800;
