@@ -148,6 +148,8 @@ nav a:hover {
 @media (max-width: 768px) {
   nav {
     padding: 16px 24px;
+    flex-wrap: wrap;
+    gap: 12px;
   }
 
   .hero {
@@ -165,21 +167,20 @@ nav a:hover {
   .carte {
     max-width: 100%;
   }
-}.apropos {
-  padding: 80px 60px;
-  max-width: 700px;
-}.apropos {
+
+  .apropos {
     padding: 60px 24px;
   }
 
   .contact {
     padding: 60px 24px;
   }
+}
 
-  nav {
-    flex-wrap: wrap;
-    gap: 12px;
-  }
+.apropos {
+  padding: 80px 60px;
+  max-width: 700px;
+}
 
 .apropos h2 {
   color: #FFB800;
@@ -194,7 +195,9 @@ nav a:hover {
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 20px;
-}.contact {
+}
+
+.contact {
   padding: 80px 60px;
   max-width: 700px;
 }
@@ -233,4 +236,28 @@ nav a:hover {
 
 .champ:focus {
   border-color: #FF6B00;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+  border-top: 1px solid #222222;
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+.footer-liens {
+  display: flex;
+  gap: 24px;
+}
+
+.footer a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
 }
